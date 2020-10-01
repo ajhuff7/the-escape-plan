@@ -63,53 +63,53 @@ $("#search-button").on("click", function(event) {
     var twoCode = response1.city.country;
 
 
-    var setting = {
-        "async": true,
-        "crossDomain": true,
-        "url": "https://restcountries-v1.p.rapidapi.com/alpha/?codes=" + twoCode,
-        "method": "GET",
-        "headers": {
-            "x-rapidapi-host": "restcountries-v1.p.rapidapi.com",
-            "x-rapidapi-key": "ec873783e1msh55d56faec5cd48cp12f531jsna93375db625f"
+        var setting = {
+            "async": true,
+            "crossDomain": true,
+            "url": "https://restcountries-v1.p.rapidapi.com/alpha/?codes=" + twoCode,
+            "method": "GET",
+            "headers": {
+                "x-rapidapi-host": "restcountries-v1.p.rapidapi.com",
+                "x-rapidapi-key": "ec873783e1msh55d56faec5cd48cp12f531jsna93375db625f"
+            }
         }
-    }
 
 
-            $.ajax(setting).done(function (response2) {
-                console.log(response2);
+        $.ajax(setting).done(function (response2) {
+        console.log(response2);
 
-                var countryName = response2[0].name;
-                var currency = response2[0].currencies[0];
-                // var threeCode = response2[0].alpha3Code;
-            
-                $(".country").text(countryName)
-                $(".currency").text(currency)
-
-
-                    var settings1 = {
-                        "async": true,
-                        "crossDomain": true,
-                        "url": "https://currencyscoop.p.rapidapi.com/latest",
-                        "method": "GET",
-                        "headers": {
-                            "x-rapidapi-host": "currencyscoop.p.rapidapi.com",
-                            "x-rapidapi-key": "ec873783e1msh55d56faec5cd48cp12f531jsna93375db625f"
-                        }
-                    }
-
-                    $.ajax(settings1).done(function (response3) {
-                        console.log(response3);
+        var countryName = response2[0].name;
+        var currency = response2[0].currencies[0];
+        // var threeCode = response2[0].alpha3Code;
+    
+        $(".country").text(countryName)
+        $(".currency").text(currency)
 
 
-                        var rateIds = response3.response.rates
-                        for (var i = 0; i < rateIds; i++) {
-                            if (currency === rateIds[i])
-                            
-                            $(".rate").append(rateIds[i].val); 
+            var settings1 = {
+                "async": true,
+                "crossDomain": true,
+                "url": "https://currencyscoop.p.rapidapi.com/latest",
+                "method": "GET",
+                "headers": {
+                    "x-rapidapi-host": "currencyscoop.p.rapidapi.com",
+                    "x-rapidapi-key": "ec873783e1msh55d56faec5cd48cp12f531jsna93375db625f"
+                }
+            }
 
-                            console.log(filteredArray)
-                            console.log(conversion)
-                    };
+            $.ajax(settings1).done(function (response3) {
+                console.log(response3)
+
+
+                var rateIds = response3.response.rates;
+                for (var i = 0; i < rateIds; i++) {
+                    if (currency === rateIds[i])
+                    
+                    $(".rate").text(rateIds[i].val)
+
+                    console.log(filteredArray)
+                    console.log(conversion)
+            }
 
 
 
@@ -145,26 +145,21 @@ $("#search-button").on("click", function(event) {
 
             // console.log(response);
             // var filteredArray = response.response.filter(function(data) {
-            //     return data.continent === countryName
-            // })
-            // console.log(filteredArray)
-
-
-
+            //    if (data.country === countryName)
             //     var covidDeaths = response.response[0][0].deaths.total
             //     var covidCases = response.response[0][0].case.total
 
             //            (covidName[i] === countryName) {
             //             $(".deaths").text(covidDeaths)
             //             $(".cases").text(covidCases)  
+
+
+                        // })
+            // console.log(filteredArray)
             //         }
 
 
-
-//     });
-
-
-
+    });
 
   });
 })
