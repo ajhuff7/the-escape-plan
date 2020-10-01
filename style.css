@@ -1,5 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
+@media (min-width: 320px) and (max-width: 1024px){ 
+  html{
+    font-size: 13px!important;
+  }
+  p{
+  font-size: 13px !important;
+  }
+  i.medium{
+    font-size:2.5rem!important;
+  }
+  h2{
+    font-size:24px!important;
+  }
+  h3{
+    font-size:15px!important;
+    margin:10px 0 0 0!important;
+  }
+  h4{
+    font-size:15px!important;
+    margin:10px 0 0 0!important;
+  }
+  h5{
+    font-size:13px!important;
+    margin:10px 0 0 0!important;
+    text-align:center;
+  }
+  .brand-logo{
+    font-size:1.5rem !important;
+  }
+  .slider ,.slides {
+    height:286px!important;
+  }
+  .slider .btn{
+    height:30px;
+  }
+  a.btn-large{
+    line-height:20px!important;
+    padding-top: 5px!important;
+    font-size:12px!important;
+  }
+  i.fa-search{
+    line-height:0!important;
+  }
+  .container {
+    width:100%;
+  }
+  .section{
+    padding:0!important;
+  }
+  .row{
+    margin-bottom:0!important;
+  }
+  .btn{
+    height:30px!important;
+    padding-top:0px!important;
+    line-height:20px!important;
+  }
+  .section-search input {
+    padding: 5px !important;
+    font-size: 14px !important;
+  }
+  input, textarea{
+    font-size:13px!important;
+  }
+  .input-field {
+    height:40px!important;
+    padding-bottom:20px!important;
+  }
+  textarea.materialize-textarea{
+    height:40px!important;
+  }
+  .input-field>label {
+    display:none!important;
+  }
+  #autocomplete-input{
+    width:70%!important;
+    max-width:70%!important;
+    height:70%;
+  }
+  #search-button{
+    height: 15%;
+    width: 11%;
+    line-height: 5px!important;
+    margin-top:-4px!important;
+    font-size: 15px;
+    padding: 15px 0 15px 0 !important;
+    margin-left:10px;
+  }
+  .btn-large i{
+    font-size:1.2rem!important;
+  }
+  .flow-text{
+    font-size:10px!important;
+    padding-top:6px!important;
+  }
+  footer.section-fluid {
+    height: 30px;
+    bottom: 0!important;
+    width: 100%;
+}
+}
+
 .slider .btn {
   margin-top: 20px;
   background-color: rgba(0,0,0,0.87);
@@ -16,7 +118,7 @@
   margin: 5px 10px;
 }
 
-#submit-button {
+.submit-button {
   background-color: rgba(0,0,0,0.87);
 }
 
