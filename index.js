@@ -124,29 +124,6 @@ $("#search-button").on("click", function(event) {
             });
 
 
-
-
-
-
-
-
-            
-//                 $.ajax(settings)
-//                 .done(function (response4) {
-//                     // console.log(response4);
-//                     // var filteredArray = response4.response.filter(function(data) {
-//                     // console.log(filteredArray)
-//                     // if (data.country === countryName) {
-//                     // $(".deaths").text(filteredArray.deaths.total)
-//                     // $(".cases").text(filteredArray.case.total)
-//                     // }
-
-//                 // });
-
-//             });
-
-
-
         });
 
     });

@@ -87,7 +87,7 @@
     font-size: 15px;
     padding: 15px 0 15px 0 !important;
     margin-left:10px;
-  }
+  }amer cent-3
   .btn-large i{
     font-size:1.2rem!important;
   }
@@ -144,6 +144,14 @@ p {
   font-size: 20px;
 }
 
+#deathCount {
+  font-size: xx-large;
+}
+
+#casesCss {
+  font-size: xx-large;
+}
+
 .gridz {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -181,9 +189,10 @@ p {
 
 .bg1 {
   background: url(https://images.unsplash.com/photo-1500021804447-2ca2eaaaabeb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+  color: rgb(14, 13, 13);
 }
 
 .bg2 {
-  background: url(https://images.unsplash.com/photo-1555397430-57791c75748a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
-  color: #333;
+  background: url(https://images.unsplash.com/photo-1545469044-68715f789051?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  color: rgba(255, 235, 205, 0.849);
 }
