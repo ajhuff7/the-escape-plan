@@ -1,6 +1,6 @@
 # the-escape-plan
 
-![Escape](assets/Escape.JPG)
+![Escape](https://github.com/ajhuff7/the-escape-plan/blob/master/assets/Escape.JPG)
 
 The Escape Plan is an exclusive Global Luxury Concierge and Lifestyle Management Service. We serve a discerning clientele who expect top-level service at every turn. Whether you require a dedicated Lifestyle Manager, access to Private Red Carpet Events or arrange all-inclusive Luxury Travel, our experienced team are able to help. We offer a client search portal that allows the user to collect varied city data in one location. 
 
@@ -31,19 +31,19 @@ Upon search, city information including weather forecast, corresponding country,
 
 ## Features
 
-![Escape1](assets/Escape1.JPG)
+![Escape1](https://github.com/ajhuff7/the-escape-plan/blob/master/assets/Escape1.JPG)
 
 - Materialize is used as a front end framework to design a well-polished and functional application. 
 
 - Responsive interface that adapts to all screen types.
 
-![Responsive](assets/Responsive.JPG)
+![Responsive](https://github.com/ajhuff7/the-escape-plan/blob/master/assets/Responsive.JPG)
 
 - Nested API's where which one builds upon the previous data points that were pulled from the prior API.
 
-![api1](assets/api1.JPG)
+![api1](https://github.com/ajhuff7/the-escape-plan/blob/master/assets/api1.JPG)
 
-![api2](assets/api2.JPG)
+![api2](https://github.com/ajhuff7/the-escape-plan/blob/master/assets/api2.JPG)
 
 
 ## Deployed Link
