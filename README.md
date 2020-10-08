@@ -1,10 +1,7 @@
 # the-escape-plan
 
-<<<<<<< HEAD
 ![Escape](assets/Escape.JPG)
 =======
-![Escape](https://github.com/ajhuff7/the-escape-plan/blob/master/assets/Escape.JPG)
->>>>>>> 564f613aa7cefe26ec877dd80c4c2b63a0950288
 
 The Escape Plan is an exclusive Global Luxury Concierge and Lifestyle Management Service. We serve a discerning clientele who expect top-level service at every turn. Whether you require a dedicated Lifestyle Manager, access to Private Red Carpet Events or arrange all-inclusive Luxury Travel, our experienced team are able to help. We offer a client search portal that allows the user to collect varied city data in one location. 
 
