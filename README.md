@@ -32,17 +32,14 @@ Upon search, city information including weather forecast, corresponding country,
 
 ## Features
 
-<<<<<<< HEAD
 ![Escape1](assets/Escape1.JPG)
 =======
-![Escape1](https://github.com/ajhuff7/the-escape-plan/blob/master/assets/Escape1.JPG)
->>>>>>> 564f613aa7cefe26ec877dd80c4c2b63a0950288
+
 
 - Materialize is used as a front end framework to design a well-polished and functional application. 
 
 - Responsive interface that adapts to all screen types.
 
-<<<<<<< HEAD
 ![Responsive](assets/Responsive.JPG)
 
 - Nested API's where which one builds upon the previous data points that were pulled from the prior API.
@@ -58,7 +55,7 @@ Upon search, city information including weather forecast, corresponding country,
 ![api1](https://github.com/ajhuff7/the-escape-plan/blob/master/assets/api1.JPG)
 
 ![api2](https://github.com/ajhuff7/the-escape-plan/blob/master/assets/api2.JPG)
->>>>>>> 564f613aa7cefe26ec877dd80c4c2b63a0950288
+
 
 
 ## Deployed Link
