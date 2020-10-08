@@ -72,8 +72,6 @@ Upon search, city information including weather forecast, corresponding country,
 
 ## License
 
-<<<<<<< HEAD
 ![License](https://img.shields.io/badge/License-MIT-brightgreen) 
 =======
-![License](https://img.shields.io/badge/License-MIT-brightgreen) 
->>>>>>> 564f613aa7cefe26ec877dd80c4c2b63a0950288
+
