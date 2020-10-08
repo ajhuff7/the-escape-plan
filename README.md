@@ -48,15 +48,6 @@ Upon search, city information including weather forecast, corresponding country,
 
 ![api2](assets/api2.JPG)
 =======
-![Responsive](https://github.com/ajhuff7/the-escape-plan/blob/master/assets/Responsive.JPG)
-
-- Nested API's where which one builds upon the previous data points that were pulled from the prior API.
-
-![api1](https://github.com/ajhuff7/the-escape-plan/blob/master/assets/api1.JPG)
-
-![api2](https://github.com/ajhuff7/the-escape-plan/blob/master/assets/api2.JPG)
-
-
 
 ## Deployed Link
 
